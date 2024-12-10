@@ -18,6 +18,7 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
+import {ModeToggle} from "@/components/mode-toggle";
 
 export function TeamSwitcher({
   teams,
@@ -82,6 +83,9 @@ export function TeamSwitcher({
               <div className="font-medium text-muted-foreground">Add team</div>
             </DropdownMenuItem>
           </DropdownMenuContent>
+          <div className="flex justify-end">
+        <ModeToggle/>
+          </div>
         </DropdownMenu>
       </SidebarMenuItem>
     </SidebarMenu>

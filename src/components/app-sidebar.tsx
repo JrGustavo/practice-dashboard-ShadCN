@@ -58,16 +58,16 @@ const data = {
       isActive: true,
       items: [
         {
-          title: "History",
-          url: "#",
+          title: "Perfiles",
+          url: "/dashboard/perfiles",
         },
         {
-          title: "Starred",
-          url: "#",
+          title: "Panel de control",
+          url: "/dashboard/panel-de-control",
         },
         {
-          title: "Configuraciones",
-          url: "/settings",
+          title: "settings",
+          url: "/dashboard/settings",
         },
       ],
     },
